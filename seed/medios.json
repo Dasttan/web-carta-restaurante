@@ -1,0 +1,128 @@
+{
+  "doble-cheddar": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "huevo-y-miel": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "pollo-crujiente": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "sesamo-negro": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "pera-y-brotes": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "clasica-de-la-casa": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "bacon-ahumado": {
+    "photo": {
+      "width": 904,
+      "height": 1200
+    }
+  },
+  "portobello": {
+    "photo": {
+      "width": 960,
+      "height": 1440
+    }
+  },
+  "alitas-picantes": {
+    "photo": {
+      "width": 960,
+      "height": 1440
+    }
+  },
+  "patatas-cheddar": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "tacos-de-pollo": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "patatas-de-la-casa": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "tarta-de-queso": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "brownie": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "tortitas": {
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "capuchino": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    },
+    "photo": {
+      "width": 960,
+      "height": 960
+    }
+  },
+  "espresso": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "cafe-con-hielo": {
+    "video": true,
+    "poster": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "frappe-de-caramelo": {
+    "photo": {
+      "width": 960,
+      "height": 1200
+    }
+  }
+}

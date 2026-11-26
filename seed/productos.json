@@ -1,0 +1,523 @@
+[
+  {
+    "id": "doble-cheddar",
+    "slug": "doble-cheddar",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Doble Cheddar",
+      "en": "Double Cheddar"
+    },
+    "description": {
+      "es": "Pan brioche con sésamo, dos carnes de vaca, doble cheddar fundido, tomate, cebolla morada y salsa de la casa.",
+      "en": "Sesame brioche bun, two beef patties, double melted cheddar, tomato, red onion and house sauce."
+    },
+    "price": 14.5,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "sesamo",
+      "huevos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": true,
+    "servings": null,
+    "units": null,
+    "featured": true,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 10
+  },
+  {
+    "id": "huevo-y-miel",
+    "slug": "huevo-y-miel",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Huevo y Miel",
+      "en": "Egg & Honey"
+    },
+    "description": {
+      "es": "Pan brioche, carne de vaca, huevo frito con pimienta y un toque de miel tostada.",
+      "en": "Brioche bun, beef patty, peppered fried egg and a touch of toasted honey."
+    },
+    "price": 13.2,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "huevos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 20,
+    "posterAt": 5
+  },
+  {
+    "id": "pollo-crujiente",
+    "slug": "pollo-crujiente",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Pollo Crujiente",
+      "en": "Crispy Chicken"
+    },
+    "description": {
+      "es": "Pan de leche, pollo rebozado, pepinillo y mayonesa de la casa.",
+      "en": "Milk bun, crispy fried chicken, pickles and house mayo."
+    },
+    "price": 12.8,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "huevos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 30,
+    "posterAt": 2
+  },
+  {
+    "id": "sesamo-negro",
+    "slug": "sesamo-negro",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Sésamo Negro",
+      "en": "Black Sesame"
+    },
+    "description": {
+      "es": "Pan artesano marcado a la plancha con sésamo negro, carne de vaca, queso suave y brotes verdes.",
+      "en": "Griddled artisan bun with black sesame, beef patty, mild cheese and young greens."
+    },
+    "price": 13.9,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "sesamo"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 40,
+    "posterAt": 3
+  },
+  {
+    "id": "pera-y-brotes",
+    "slug": "pera-y-brotes",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Pera y Brotes",
+      "en": "Pear & Greens"
+    },
+    "description": {
+      "es": "Pan con sésamo negro, carne de vaca, brotes verdes y pera fresca al lado.",
+      "en": "Black sesame bun, beef patty, young greens and fresh pear on the side."
+    },
+    "price": 13.5,
+    "allergens": [
+      "gluten",
+      "sesamo"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 50,
+    "posterAt": 6
+  },
+  {
+    "id": "clasica-de-la-casa",
+    "slug": "clasica-de-la-casa",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Clásica de la Casa",
+      "en": "House Classic"
+    },
+    "description": {
+      "es": "Pan a la plancha, carne de vaca, lechuga, tomate y salsa suave.",
+      "en": "Griddled bun, beef patty, lettuce, tomato and a mild sauce."
+    },
+    "price": 11.5,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "sesamo"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 60,
+    "posterAt": 5
+  },
+  {
+    "id": "bacon-ahumado",
+    "slug": "bacon-ahumado",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Bacon Ahumado",
+      "en": "Smoked Bacon"
+    },
+    "description": {
+      "es": "Pan con sésamo, carne a la brasa, bacon ahumado, cheddar y cebolla.",
+      "en": "Sesame bun, flame-grilled beef, smoked bacon, cheddar and onion."
+    },
+    "price": 13.8,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "sesamo"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 70
+  },
+  {
+    "id": "portobello",
+    "slug": "portobello",
+    "category": "hamburguesas",
+    "name": {
+      "es": "Portobello",
+      "en": "Portobello"
+    },
+    "description": {
+      "es": "Pan brioche, setas portobello salteadas, queso fundido, tomate y lechuga.",
+      "en": "Brioche bun, sautéed portobello mushrooms, melted cheese, tomato and lettuce."
+    },
+    "price": 12.4,
+    "allergens": [
+      "gluten",
+      "lacteos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": true,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "grande",
+    "sortOrder": 80
+  },
+  {
+    "id": "alitas-picantes",
+    "slug": "alitas-picantes",
+    "category": "para-compartir",
+    "name": {
+      "es": "Alitas picantes",
+      "en": "Spicy wings"
+    },
+    "description": {
+      "es": "Alitas de pollo glaseadas, guindilla, sésamo y cilantro.",
+      "en": "Glazed chicken wings, chilli, sesame and coriander."
+    },
+    "price": 9.8,
+    "allergens": [
+      "sesamo",
+      "soja"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": 2,
+    "units": 10,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 10
+  },
+  {
+    "id": "patatas-cheddar",
+    "slug": "patatas-cheddar",
+    "category": "para-compartir",
+    "name": {
+      "es": "Patatas cheddar y bacon",
+      "en": "Cheddar bacon fries"
+    },
+    "description": {
+      "es": "Patatas fritas, salsa de cheddar, bacon crujiente y cebollino.",
+      "en": "Fries, cheddar sauce, crispy bacon and chives."
+    },
+    "price": 8.5,
+    "allergens": [
+      "lacteos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": 2,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 20
+  },
+  {
+    "id": "tacos-de-pollo",
+    "slug": "tacos-de-pollo",
+    "category": "para-compartir",
+    "name": {
+      "es": "Tacos de pollo",
+      "en": "Chicken tacos"
+    },
+    "description": {
+      "es": "Tortilla de trigo, pollo especiado, jalapeño, cebolla y lima.",
+      "en": "Flour tortilla, spiced chicken, jalapeño, onion and lime."
+    },
+    "price": 10.9,
+    "allergens": [
+      "gluten"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": 3,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 30
+  },
+  {
+    "id": "patatas-de-la-casa",
+    "slug": "patatas-de-la-casa",
+    "category": "para-compartir",
+    "name": {
+      "es": "Patatas de la casa",
+      "en": "House fries"
+    },
+    "description": {
+      "es": "Patatas fritas con sal en escamas y kétchup.",
+      "en": "Fries with flaky salt and ketchup."
+    },
+    "price": 4.9,
+    "allergens": null,
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": 2,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 40
+  },
+  {
+    "id": "tarta-de-queso",
+    "slug": "tarta-de-queso",
+    "category": "postres",
+    "name": {
+      "es": "Tarta de queso y arándanos",
+      "en": "Blueberry cheesecake"
+    },
+    "description": {
+      "es": "Tarta de queso cremosa, base de galleta y arándanos.",
+      "en": "Creamy cheesecake, biscuit base and blueberries."
+    },
+    "price": 6.5,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "huevos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 10
+  },
+  {
+    "id": "brownie",
+    "slug": "brownie",
+    "category": "postres",
+    "name": {
+      "es": "Brownie de chocolate",
+      "en": "Chocolate brownie"
+    },
+    "description": {
+      "es": "Brownie templado bañado en chocolate fundido.",
+      "en": "Warm brownie covered in melted chocolate."
+    },
+    "price": 6.2,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "huevos",
+      "frutos-secos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 20
+  },
+  {
+    "id": "tortitas",
+    "slug": "tortitas",
+    "category": "postres",
+    "name": {
+      "es": "Tortitas con frutos rojos",
+      "en": "Berry pancakes"
+    },
+    "description": {
+      "es": "Tortitas, sirope, fresas y arándanos.",
+      "en": "Pancakes, syrup, strawberries and blueberries."
+    },
+    "price": 7.4,
+    "allergens": [
+      "gluten",
+      "lacteos",
+      "huevos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 30
+  },
+  {
+    "id": "capuchino",
+    "slug": "capuchino",
+    "category": "cafes",
+    "name": {
+      "es": "Capuchino",
+      "en": "Cappuccino"
+    },
+    "description": {
+      "es": "Espresso y leche texturizada.",
+      "en": "Espresso and steamed milk."
+    },
+    "price": 2.6,
+    "allergens": [
+      "lacteos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 10,
+    "posterAt": 6
+  },
+  {
+    "id": "espresso",
+    "slug": "espresso",
+    "category": "cafes",
+    "name": {
+      "es": "Espresso",
+      "en": "Espresso"
+    },
+    "description": {
+      "es": "Café de especialidad, molido al momento.",
+      "en": "Speciality coffee, freshly ground."
+    },
+    "price": 1.8,
+    "allergens": [],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 20,
+    "posterAt": 2
+  },
+  {
+    "id": "cafe-con-hielo",
+    "slug": "cafe-con-hielo",
+    "category": "cafes",
+    "name": {
+      "es": "Café con leche y hielo",
+      "en": "Iced latte"
+    },
+    "description": {
+      "es": "Espresso, hielo y leche fría.",
+      "en": "Espresso, ice and cold milk."
+    },
+    "price": 3.2,
+    "allergens": [
+      "lacteos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 30,
+    "posterAt": 8
+  },
+  {
+    "id": "frappe-de-caramelo",
+    "slug": "frappe-de-caramelo",
+    "category": "cafes",
+    "name": {
+      "es": "Frappé de caramelo",
+      "en": "Caramel frappé"
+    },
+    "description": {
+      "es": "Café frío batido, nata montada y caramelo.",
+      "en": "Blended iced coffee, whipped cream and caramel."
+    },
+    "price": 4.5,
+    "allergens": [
+      "lacteos"
+    ],
+    "allergensPendingReview": false,
+    "includesFries": false,
+    "modificationRestrictions": false,
+    "servings": null,
+    "units": null,
+    "featured": false,
+    "available": true,
+    "layout": "compacta",
+    "sortOrder": 40
+  }
+]

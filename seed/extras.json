@@ -1,0 +1,134 @@
+{
+  "title": {
+    "es": "Extras",
+    "en": "Extras"
+  },
+  "groups": [
+    {
+      "id": "carnes",
+      "name": {
+        "es": "Carnes",
+        "en": "Meats"
+      },
+      "items": [
+        {
+          "id": "carne-vaca",
+          "name": {
+            "es": "Carne de vaca",
+            "en": "Beef patty"
+          },
+          "price": 3.5,
+          "available": true
+        },
+        {
+          "id": "pollo",
+          "name": {
+            "es": "Pollo crujiente",
+            "en": "Crispy chicken"
+          },
+          "price": 3,
+          "available": true
+        },
+        {
+          "id": "bacon",
+          "name": {
+            "es": "Bacon ahumado",
+            "en": "Smoked bacon"
+          },
+          "price": 1.2,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "quesos",
+      "name": {
+        "es": "Quesos",
+        "en": "Cheeses"
+      },
+      "items": [
+        {
+          "id": "cheddar",
+          "name": {
+            "es": "Cheddar",
+            "en": "Cheddar"
+          },
+          "price": 1,
+          "available": true
+        },
+        {
+          "id": "cabra",
+          "name": {
+            "es": "Queso de cabra",
+            "en": "Goat cheese"
+          },
+          "price": 1.5,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "panes",
+      "name": {
+        "es": "Panes",
+        "en": "Buns"
+      },
+      "items": [
+        {
+          "id": "brioche",
+          "name": {
+            "es": "Pan brioche",
+            "en": "Brioche bun"
+          },
+          "price": 0.8,
+          "available": true
+        },
+        {
+          "id": "sin-gluten",
+          "name": {
+            "es": "Pan sin gluten",
+            "en": "Gluten-free bun"
+          },
+          "price": 1.5,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "cafe",
+      "name": {
+        "es": "Café",
+        "en": "Coffee"
+      },
+      "items": [
+        {
+          "id": "avena",
+          "name": {
+            "es": "Bebida de avena",
+            "en": "Oat milk"
+          },
+          "price": 0.4,
+          "available": true
+        },
+        {
+          "id": "shot",
+          "name": {
+            "es": "Espresso extra",
+            "en": "Extra espresso shot"
+          },
+          "price": 0.7,
+          "available": true
+        },
+        {
+          "id": "sirope",
+          "name": {
+            "es": "Sirope de vainilla",
+            "en": "Vanilla syrup"
+          },
+          "price": 0.5,
+          "available": true
+        }
+      ]
+    }
+  ]
+}

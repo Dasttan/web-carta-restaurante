@@ -1,0 +1,15 @@
+{
+  "name": "Web Carta para Restaurante",
+  "short_name": "Web Carta",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#1c1714",
+  "theme_color": "#1c1714",
+  "icons": [
+    {
+      "src": "/brand/icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

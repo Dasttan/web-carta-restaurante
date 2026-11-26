@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Web Carta para Restaurante</title>
+    <meta name="description" content="Web de muestra: carta digital para restaurantes, con vídeos, alérgenos y dos idiomas." />
+    <meta name="theme-color" content="#1c1714" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Web Carta para Restaurante" />
+    <meta property="og:title" content="Web Carta para Restaurante" />
+    <meta property="og:description" content="Web de muestra: carta digital para restaurantes." />
+    <meta property="og:image" content="%VITE_SITE_URL%/brand/compartir.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/brand/icono-48.png" sizes="48x48" type="image/png" />
+    <link rel="apple-touch-icon" href="/brand/icono-180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="robots" content="noindex" />
+    <link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin />
+    <!--head-->
+    <script>
+      // Evita un parpadeo en español si el cliente usa inglés o entra a una categoría concreta.
+      (function (root) {
+        try {
+          var params = new URLSearchParams(location.search);
+          var lang = params.get('lang') || localStorage.getItem('carta-lang');
+          var list = navigator.languages || [];
+          for (var i = 0; i < list.length && !lang; i++) if (/^(es|en)/i.test(list[i])) lang = list[i].slice(0, 2).toLowerCase();
+          if (lang === 'en' || params.has('categoria')) {
+            root.classList.add('is-booting');
+            setTimeout(function () { root.classList.remove('is-booting'); }, 2500);
+          }
+        } catch (e) {}
+      })(document.documentElement);
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </head>
+  <body>
+    <div id="app"><!--app--></div>
+    <!--data-->
+  </body>
+</html>

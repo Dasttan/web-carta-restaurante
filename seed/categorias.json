@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hamburguesas",
+    "name": {
+      "es": "Hamburguesas",
+      "en": "Burgers"
+    },
+    "type": "productos"
+  },
+  {
+    "id": "para-compartir",
+    "name": {
+      "es": "Para compartir",
+      "en": "To share"
+    },
+    "type": "productos"
+  },
+  {
+    "id": "postres",
+    "name": {
+      "es": "Postres",
+      "en": "Desserts"
+    },
+    "type": "productos"
+  },
+  {
+    "id": "cafes",
+    "name": {
+      "es": "Cafés",
+      "en": "Coffee"
+    },
+    "type": "productos"
+  },
+  {
+    "id": "extras",
+    "name": {
+      "es": "Extras",
+      "en": "Extras"
+    },
+    "type": "extras"
+  }
+]

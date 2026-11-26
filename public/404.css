@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Bricolage';
+  font-weight: 200 800;
+  src: url('/fonts/bricolage.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-weight: 300 900;
+  src: url('/fonts/figtree.woff2') format('woff2');
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  color-scheme: dark;
+  background: #1c1714;
+  color: #f8f1e7;
+  font: 400 1.0625rem/1.55 'Figtree', system-ui, sans-serif;
+}
+main {
+  position: relative;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1rem;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+/* El 404, gigante y al fondo, encendido como el plato destacado de la carta */
+.code {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  color: #ff9364;
+  font: 800 min(62vw, 34rem) / 1 'Bricolage', sans-serif;
+  letter-spacing: -0.05em;
+  opacity: 0.1;
+  transform: translate(-50%, -54%);
+}
+h1 {
+  max-width: 16em;
+  font: 700 clamp(2rem, 1.5rem + 2.6vw, 3.25rem) / 1.08 'Bricolage', sans-serif;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+p {
+  max-width: 32em;
+  text-wrap: balance;
+}
+a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3.25rem;
+  margin-top: 0.75rem;
+  padding: 0 1.75rem;
+  border-radius: 0.875rem;
+  background: #f8f1e7;
+  color: #1c1714;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:focus-visible {
+  outline: 3px solid #ff9364;
+  outline-offset: 3px;
+}
+.note {
+  color: #c6b9ab;
+  font-size: 0.9375rem;
+}

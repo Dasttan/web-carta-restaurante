@@ -1,0 +1,10 @@
+node_modules
+dist
+# Secretos y datos del restaurante
+.env
+.env.*
+!.env.example
+data
+data-*
+# Originales pesados: no hacen falta para publicar
+originales/productos
